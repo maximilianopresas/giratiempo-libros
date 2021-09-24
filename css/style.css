@@ -1,0 +1,423 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*----- NAVEGADOR -----*/
+.logo:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.fondonav {
+  background-image: -webkit-gradient(linear, right top, left top, from(#5333ed), to(#a189f7));
+  background-image: linear-gradient(to left, #5333ed, #a189f7);
+  opacity: 0.9;
+  border-bottom: 3px solid black;
+}
+
+.fondonav div ul li a {
+  color: white;
+  font-size: 20px;
+  font-family: 'Kaisei HarunoUmi', serif;
+}
+
+.fondonav div ul li a:hover {
+  color: #6b6060;
+}
+
+/*----- BODY -----*/
+.fondo {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body section p {
+  padding: 40px;
+}
+
+.seccionprincipal {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.seccionprincipal img {
+  border: 3px solid black;
+  width: 300px;
+  height: 300px;
+}
+
+.seccionprincipal p {
+  color: black;
+  opacity: 0.8;
+  margin-top: 80px;
+}
+
+.seccionprincipal__titulo {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Kaisei HarunoUmi', serif;
+  color: black;
+  background-color: #2cd4d9;
+  opacity: 0.8;
+  margin: 20px;
+  padding: 20px;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Kaisei HarunoUmi', serif;
+  color: black;
+  background-color: #2cd4d9;
+  opacity: 0.8;
+  margin: 20px;
+  padding: 20px;
+}
+
+p {
+  color: black;
+  opacity: 0.8;
+  font-size: 20px;
+  text-transform: none;
+  line-height: 25px;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  word-spacing: 0.5px;
+  font-family: 'Kaisei HarunoUmi', serif;
+  font-weight: 700;
+}
+
+/*----- QUIENES SOMOS -----*/
+.sectionQuienesSomos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sectionQuienesSomos__parrafo {
+  color: black;
+  font-style: italic;
+  font-weight: 550;
+  opacity: 0.8;
+  margin: 40px;
+}
+
+.sectionQuienesSomos__video {
+  margin-top: 20px;
+  padding: 5px;
+  background-color: #6E7076;
+}
+
+/*----- CATALOGO -----*/
+.sectioncatalogo__img {
+  display: block;
+  margin: auto;
+  margin-bottom: 80px;
+  border: 3px solid black;
+  border-radius: 5%;
+}
+
+.sectioncatalogo__img:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.sectioncatalogo__titulolibro {
+  border-top: 2px solid black;
+  padding-top: 20px;
+  color: black;
+  opacity: 0.8;
+  font-size: 25px;
+  font-family: 'Kaisei HarunoUmi', serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.sectioncatalogo p {
+  padding: 10px;
+  margin: 0px 50px 0px 50px;
+}
+
+/*----- MEDIOS DE PAGO -----*/
+.sectionMediosDePago {
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sectionMediosDePago .sectionMediosDePago__parrafo {
+  color: black;
+  opacity: 0.8;
+  padding: 30px;
+}
+
+.sectionMediosDePago .sectionMediosDePago__imagen {
+  display: block;
+  margin: auto;
+  -webkit-box-shadow: 10px 10px 30px 10px #b8b5b5;
+          box-shadow: 10px 10px 30px 10px #b8b5b5;
+}
+
+h5 {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
+
+.textocard p {
+  padding: 40px;
+  color: #383434;
+}
+
+.cardtranslate:hover {
+  -webkit-transform: translate(10px, 20px);
+          transform: translate(10px, 20px);
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+/*----- CONTACTO -----*/
+.sectioncontacto__imagen {
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.sectioncontacto__parrafo {
+  color: black;
+  opacity: 0.8;
+  padding: 30px;
+}
+
+.colorvioleta {
+  color: #500050;
+  font-size: 30px;
+}
+
+/*----- ERROR 404 -----*/
+.error__img {
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.error__parrafo {
+  text-align: center;
+}
+
+.error__button {
+  display: block;
+  margin: auto;
+}
+
+.error__button a {
+  color: #572657;
+  text-decoration: none;
+  font-family: 'Kaisei HarunoUmi', serif;
+  font-size: 20px;
+  padding: 30px 20px;
+}
+
+.error__button:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+/*----- FOOTER -----*/
+footer {
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  border-radius: 5px;
+  border-top: 3px solid black;
+  opacity: 0.8;
+}
+
+footer ul {
+  background-image: -webkit-gradient(linear, left top, right top, from(#2cd4d9), to(#9ff0d1));
+  background-image: linear-gradient(to right, #2cd4d9, #9ff0d1);
+  list-style-type: none;
+  color: black;
+  font-family: 'Kaisei HarunoUmi', serif;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+footer ul i {
+  color: black;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.footerStyle__li {
+  background-image: -webkit-gradient(linear, left top, right top, from(#2cd4d9), to(#9ff0d1));
+  background-image: linear-gradient(to right, #2cd4d9, #9ff0d1);
+  list-style-type: none;
+  color: black;
+  text-align: center;
+  font-family: 'Kaisei HarunoUmi', serif;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+  header {
+    background-color: #626d71;
+    display: block;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 5px solid black;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  header nav ul {
+    width: 100%;
+    display: block;
+  }
+  .navegacion li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+  }
+  .seccionprincipal {
+    padding: 30px;
+    display: block;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .seccionprincipal img {
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+  }
+  h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    background-color: #c9a66b;
+    margin: 15px;
+  }
+  p {
+    color: white;
+    font-size: 15px;
+    text-transform: none;
+    line-height: 20px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+    font-family: 'Indie Flower', cursive;
+  }
+}
+
+@media (max-width: 576px) {
+  .mediaq {
+    background-color: grey;
+    background-image: none;
+  }
+  .seccionprincipal {
+    padding: 20px;
+    display: block;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .seccionprincipal img {
+    border: 5px solid black;
+    width: 150px;
+    height: 150px;
+  }
+  h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    background-color: #c9a66b;
+    margin: 10px;
+  }
+  p {
+    color: white;
+    font-size: 15px;
+    text-transform: none;
+    line-height: 15px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+    font-family: 'Indie Flower', cursive;
+  }
+}
+/*# sourceMappingURL=style.css.map */
