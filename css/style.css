@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@700&display=swap");
 * {
   margin: 0%;
   padding: 0%;
@@ -35,7 +36,7 @@
 
 /*----- BODY -----*/
 .fondo {
-  background-color: #d8d7d7;
+  background-color: #ecebeb;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -109,6 +110,125 @@ p {
   word-spacing: 0.5px;
   font-family: 'Kaisei HarunoUmi', serif;
   font-weight: 700;
+}
+
+.section__packaging {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin-top: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 150px;
+  background-image: url(https://static4.depositphotos.com/1014905/360/i/600/depositphotos_3600611-stock-photo-textured-clear-beige-background-with.jpg);
+  background-size: cover;
+}
+
+.section__packaging__h2 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  font-family: 'Kaisei HarunoUmi', serif;
+  -webkit-animation: swing;
+          animation: swing;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+.section__packaging__parrafo {
+  color: black;
+  font-family: 'Kaisei HarunoUmi', serif;
+}
+
+.section__packaging__img {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+
+.section__packaging__img:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: 4s;
+  transition: 4s;
+}
+
+.section__spotify {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin-top: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 150px;
+  background-image: url(https://png.vector.me/files/images/1/5/159344/green_background_vector.jpg);
+  background-size: cover;
+}
+
+.section__spotify__img {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+
+.section__spotify__h2 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  font-family: 'Kaisei HarunoUmi', serif;
+}
+
+.section__spotify__h2 a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Kaisei HarunoUmi', serif;
+}
+
+.section__spotify__parrafo {
+  color: black;
+  font-family: 'Kaisei HarunoUmi', serif;
+}
+
+.section__spotify__button {
+  margin-left: 280px;
+  margin-bottom: 100px;
+  background-color: black;
+}
+
+.section__spotify__button:hover {
+  background-color: #353434;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.section__spotify__button a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-family: 'Kaisei HarunoUmi', serif;
+  margin: 10px;
 }
 
 /*----- QUIENES SOMOS -----*/
@@ -313,6 +433,12 @@ footer ul i {
   padding-left: 20px;
 }
 
+.footerStyle__li a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Kaisei HarunoUmi', serif;
+}
+
 @media (max-width: 768px) {
   header {
     background-color: #626d71;
@@ -337,10 +463,12 @@ footer ul i {
   .navegacion li a {
     color: white;
     text-decoration: none;
-    font-family: 'Indie Flower', cursive;
     font-size: 20px;
     padding: 5px;
     margin: 5px;
+  }
+  .hamburguesa {
+    color: white;
   }
   .seccionprincipal {
     padding: 30px;
@@ -362,9 +490,7 @@ footer ul i {
     font-weight: bold;
     font-size: 30px;
     text-align: center;
-    font-family: 'Indie Flower', cursive;
     color: black;
-    background-color: #c9a66b;
     margin: 15px;
   }
   p {
@@ -375,7 +501,6 @@ footer ul i {
     text-decoration: none;
     letter-spacing: 0.5px;
     word-spacing: 0.5px;
-    font-family: 'Indie Flower', cursive;
   }
 }
 
@@ -404,9 +529,7 @@ footer ul i {
     font-weight: bold;
     font-size: 20px;
     text-align: center;
-    font-family: 'Indie Flower', cursive;
     color: black;
-    background-color: #c9a66b;
     margin: 10px;
   }
   p {
@@ -417,7 +540,6 @@ footer ul i {
     text-decoration: none;
     letter-spacing: 0.5px;
     word-spacing: 0.5px;
-    font-family: 'Indie Flower', cursive;
   }
 }
 /*# sourceMappingURL=style.css.map */
