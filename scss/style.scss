@@ -19,18 +19,23 @@
 
 
 .fondonav{
-    background-image: linear-gradient(to left, $colorfondonav, rgb(161, 137, 247) );
+    background-color: rgb(83, 14, 14);
     opacity: 0.9;
     border-bottom: 3px solid black;
+    div{
+        ul{
+            li{
+                a{
+                    color: white;
+                    font-size: $tamañofuente*2;
+                 font-family: 'Kaisei HarunoUmi', serif;
+                }
+            }
+        }
+    }
 
 }
 
-.fondonav div ul li a{
-    color: white;
-    font-size: $tamañofuente*2;
-    font-family: 'Kaisei HarunoUmi', serif;
-    
-}
 
 .fondonav div ul li a:hover{
     color:#6b6060;
@@ -56,19 +61,15 @@ body section p {
     justify-content: center;
     align-items: center;
     height: 100vh;
+
+
+    p{
+        color:black;
+        margin-top: 80px;
+    }
+
 }
 
-.seccionprincipal img {
-    border: 3px solid black;
-    width: 300px;
-    height: 300px;
-}
-
-.seccionprincipal p{
-    color:black;
-    opacity: 0.8;
-    margin-top: 80px;
-}
 .seccionprincipal__titulo {
     font-style: normal;
     font-weight: bold;
@@ -89,7 +90,7 @@ h1{
     text-align: center;
     font-family: 'Kaisei HarunoUmi', serif;
     color: black;
-    background-color: #2cd4d9;
+    background-color:$backgroundcolortitulo;
     opacity: 0.8;
     margin: 20px;
     padding: 20px;
@@ -122,26 +123,26 @@ p {
     margin-bottom: 150px;
     background-image: url(https://static4.depositphotos.com/1014905/360/i/600/depositphotos_3600611-stock-photo-textured-clear-beige-background-with.jpg);
     background-size: cover;
+
+    h2{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+        font-size: 40px;
+        color: black;
+        font-family: 'Kaisei HarunoUmi', serif;
+        animation: swing;
+        animation-duration: 5s;
+    
+    }
+    .section__packaging__parrafo{
+        color: black;
+        font-family: 'Kaisei HarunoUmi', serif;  
+    }
+  
+    
 }
 
-.section__packaging__h2{
-
-    margin-top: 100px;
-    margin-bottom: 100px;
-    text-align: center;
-    font-size: 40px;
-    color: black;
-    font-family: 'Kaisei HarunoUmi', serif;
-    animation: swing;
-    animation-duration: 5s;
-
-}
-
-.section__packaging__parrafo{
-
-    color: black;
-    font-family: 'Kaisei HarunoUmi', serif;  
-}
 
 .section__packaging__img{
 
@@ -171,29 +172,31 @@ p {
     background-image: url(https://png.vector.me/files/images/1/5/159344/green_background_vector.jpg);
     background-size: cover;
 
-}
+    img{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 100px;
+        margin-right: 50px;
 
-.section__spotify__img{
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 100px;
-    margin-right: 50px;
-}
+        
+    }
 
-.section__spotify__h2{
-    margin-top: 100px;
-    margin-bottom: 50px;
-    text-align: center;
-    font-size: 40px;
-    color: black;
-    font-family: 'Kaisei HarunoUmi', serif;
+    .section__spotify__h2 {
+        margin-top: 100px;
+        margin-bottom: 50px;
+        text-align: center;
+        font-size: 40px;
+        color: black;
+        font-family: 'Kaisei HarunoUmi', serif;
+
+    }
 }
 
 .section__spotify__h2 a{
     text-decoration: none;
     color: black;
     font-family: 'Kaisei HarunoUmi', serif;
-}
+} 
 
 .section__spotify__parrafo{
     color: black;
@@ -394,7 +397,7 @@ footer {
     opacity: 0.8;
 
     ul {
-        background-image: linear-gradient(to right, $backgroundcolorfooter , #9ff0d1 );
+        background-color:rgb(145, 144, 144);
         list-style-type: none;
         color: black;
         font-family: 'Kaisei HarunoUmi', serif;
@@ -415,7 +418,7 @@ footer {
 
 
 .footerStyle__li{
-    background-image: linear-gradient(to right, $backgroundcolorfooter , #9ff0d1 );
+    background-color: rgb(145, 144, 144);
     list-style-type: none;
     color:black;
     text-align: center;
