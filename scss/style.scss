@@ -11,10 +11,10 @@
 /*----- HEADER -----*/
 
 .headerEstilo{
-    background-color: black;
+    background-image: linear-gradient(to bottom, white,rgb(216, 213, 213));
     font-family: 'Kaisei HarunoUmi', serif;
     border-bottom: 3px solid rgb(255, 120, 142);
-    color: white;
+    
 
 }
 
@@ -31,101 +31,46 @@
 
 /*----- BODY -----*/
 
-.fondo {
-    background-color: white;
+.seccionPrincipal{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    background-image: url(../multimedia/Banner.png);
+    background-size: cover;
+    height: 100vh;
+   
     
+    h1{
+        color:white;
+        padding-left: 5%;
+        font-size: 2.5rem;
+    }
 }
+.seccionPrincipal__parrafo{
+
+    color: rgb(255, 64, 96);
+    padding-left: 5%;
+    text-align:start;
+    font-size: 1rem;
+}
+
 
 body section p {
     padding: 40px;
 }
 
-.seccionprincipal {
-   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 
-
-    p{
-        color:black;
-    }
-
-}
-
-.seccionprincipal__titulo {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    text-align: center;
-    font-family: 'Kaisei HarunoUmi', serif;
-    color:black;
-    background-color: $backgroundcolortitulo;
-    opacity: 0.8;
-    margin-top: -15%;
-    margin-left: 100px;
-    margin-right: 100px;
-   
-}
-
-h1{
-    font-style: normal;
-    font-weight: bold;
-    font-size: $tamañofuente*3;
-    text-align: center;
-    font-family: 'Kaisei HarunoUmi', serif;
-    color: black;
-    background-color:$backgroundcolortitulo;
-    opacity: 0.8;
-    margin: 2%;
-    padding: 2%;
-
-}
-
-p {
-    color:black;
-    opacity: 0.8;
-    font-size: $tamañofuente*2;
-    text-transform: none;
-    line-height: 25px;
-    text-decoration: none;
-    letter-spacing: 0.5px;
-    word-spacing: 0.5px;
-    font-family: 'Kaisei HarunoUmi', serif;
-    font-weight: 700;
-    margin-left: 100px;
-    margin-right: 100px;
-
-}
 
 .section__packaging{
     display: flex;
+    text-align: left;
     justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-bottom: 50px;
-    background-image: url(https://static4.depositphotos.com/1014905/360/i/600/depositphotos_3600611-stock-photo-textured-clear-beige-background-with.jpg);
-    background-size: cover;
-
-    h2{
-        margin-top: 100px;
-        margin-bottom: 100px;
-        text-align: center;
-        font-size: 40px;
-        color: black;
-        font-family: 'Kaisei HarunoUmi', serif;
-        animation: swing;
-        animation-duration: 5s;
-    
-    }
-    .section__packaging__parrafo{
-        color: black;
-        font-family: 'Kaisei HarunoUmi', serif;  
-    }
-  
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    font-family: 'Kaisei HarunoUmi', serif;
     
 }
 
@@ -153,14 +98,15 @@ p {
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 150px;
-    background-image: url(https://www.10wallpaper.com/wallpaper/1920x1080/1610/Abstract_pictures_system_green-Vector_Design_HD_Wallpaper_1920x1080.jpg);
-    background-size: cover;
+    
+   
 
     img{
-        margin-top: 100px;
-        margin-bottom: 100px;
-        margin-left: 100px;
-        margin-right: 50px;
+        margin-top:50%;
+        margin-bottom:50%;
+        
+     
+
 
         
     }
@@ -211,29 +157,39 @@ p {
 
 /*----- QUIENES SOMOS -----*/
 
-.sectionQuienesSomos {
+.seccionQuienesSomos{
+
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items:center;
+    margin-top: 50px;
+    background-image: url(../multimedia/Banner.png);
+    background-size: cover;
+    height: 50vh;
+
+    
+    h1{
+        color:white;
+        padding-left: 5%;
+        font-size: 2.5rem;
+    }
+
+}
+
+.seccionQuienesSomos__parrafo{
+    color: rgb(255, 64, 96);
+    padding-left: 5%;
+    text-align:start;
+    font-size: 1rem;
 
 }
 
 
-.sectionQuienesSomos__parrafo{
-    color:black;
-    font-style: italic;
-    font-weight: 550;
-    opacity: 0.8;
-    margin: 40px;
-}
 
-.sectionQuienesSomos__video{
- 
-    margin-top: 20px;
-    padding: 5px;
-    background-color: #6E7076;
-}
+
+
+
+
 
 /*----- CATALOGO -----*/
 
@@ -374,6 +330,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     border-top: 3px solid rgb(255, 120, 142);
