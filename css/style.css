@@ -11,9 +11,8 @@
 
 /*----- HEADER -----*/
 .headerEstilo {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#d8d5d5));
-  background-image: linear-gradient(to bottom, white, #d8d5d5);
-  font-family: 'Kaisei HarunoUmi', serif;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(#414040));
+  background-image: linear-gradient(to bottom, black, #414040);
   border-bottom: 3px solid #ff788e;
 }
 
@@ -79,63 +78,48 @@ body section p {
   font-family: 'Kaisei HarunoUmi', serif;
 }
 
-.section__packaging__img {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-left: 100px;
-  margin-right: 50px;
-}
-
-.section__packaging__img:hover {
-  -webkit-transform: scale(1.3);
-          transform: scale(1.3);
-  -webkit-transition: 4s;
-  transition: 4s;
+.fondoCardPackaging {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f3ccd3), to(white));
+  background-image: linear-gradient(to bottom, #f3ccd3, white);
+  padding-top: 5%;
 }
 
 .section__spotify {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 150px;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 150px;
-}
-
-.section__spotify img {
-  margin-top: 50%;
-  margin-bottom: 50%;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  padding-right: 40%;
+  background-image: url(https://fondosmil.com/fondo/20832.jpg);
+  background-size: cover;
 }
 
 .section__spotify .section__spotify__h2 {
   margin-top: 100px;
   margin-bottom: 50px;
-  text-align: center;
+  margin-left: 8%;
+  text-align: left;
   font-size: 40px;
-  color: black;
+  color: white;
   font-family: 'Kaisei HarunoUmi', serif;
 }
 
 .section__spotify__h2 a {
   text-decoration: none;
-  color: black;
+  color: white;
   font-family: 'Kaisei HarunoUmi', serif;
 }
 
 .section__spotify__parrafo {
-  color: black;
+  color: white;
   font-family: 'Kaisei HarunoUmi', serif;
 }
 
 .section__spotify__button {
-  margin-left: 280px;
+  margin-left: 35%;
   margin-bottom: 100px;
   background-color: black;
 }
@@ -185,62 +169,57 @@ body section p {
 }
 
 /*----- CATALOGO -----*/
-.sectioncatalogo__img {
-  display: block;
-  margin: auto;
-  margin-bottom: 80px;
-  border: 3px solid black;
-  border-radius: 5%;
+.seccioncatalogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+  background-image: url(../multimedia/Banner.png);
+  background-size: cover;
+  height: 50vh;
 }
 
-.sectioncatalogo__img:hover {
-  -webkit-transform: scale(1.2, 1.2);
-          transform: scale(1.2, 1.2);
-  -webkit-transition: 2s;
-  transition: 2s;
+.seccioncatalogo h1 {
+  color: white;
+  padding-left: 5%;
+  font-size: 2.5rem;
 }
 
-.sectioncatalogo__titulolibro {
-  border-top: 2px solid black;
-  padding-top: 20px;
-  color: black;
-  opacity: 0.8;
-  font-size: 25px;
-  font-family: 'Kaisei HarunoUmi', serif;
-  font-weight: 700;
-  text-align: center;
+.seccioncatalogo__parrafo {
+  color: #ff4060;
+  padding-left: 5%;
+  text-align: start;
+  font-size: 1rem;
 }
 
-.sectioncatalogo p {
-  padding: 10px;
-  margin: 0px 50px 0px 50px;
-}
-
-/*----- MEDIOS DE PAGO -----*/
-.sectionMediosDePago {
-  margin: 20px;
+.imagenesCatalogo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  margin-top: 5%;
 }
 
-.sectionMediosDePago .sectionMediosDePago__parrafo {
-  color: black;
-  opacity: 0.8;
-  padding: 30px;
+.hoverLibro:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
-.sectionMediosDePago .sectionMediosDePago__imagen {
-  display: block;
-  margin: auto;
-  -webkit-box-shadow: 10px 10px 30px 10px #b8b5b5;
-          box-shadow: 10px 10px 30px 10px #b8b5b5;
+/*----- MEDIOS DE PAGO -----*/
+.cardsMdp {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f3ccd3), to(white));
+  background-image: linear-gradient(to bottom, #f3ccd3, white);
+  margin-top: 10%;
 }
 
 h5 {
@@ -255,29 +234,59 @@ h5 {
 }
 
 .cardtranslate:hover {
-  -webkit-transform: translate(10px, 20px);
-          transform: translate(10px, 20px);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   -webkit-transition: 2s;
   transition: 2s;
 }
 
 /*----- CONTACTO -----*/
-.sectioncontacto__imagen {
-  display: block;
+.formulario {
+  margin-top: 8%;
+  font-family: 'Kaisei HarunoUmi', serif;
+}
+
+form {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f3ccd3), to(white));
+  background-image: linear-gradient(to bottom, #f3ccd3, white);
+  width: 50%;
   margin: auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  padding: 4% 3%;
+  border: 1px solid black;
+  border-radius: 5%;
 }
 
-.sectioncontacto__parrafo {
-  color: black;
-  opacity: 0.8;
-  padding: 30px;
+h2 {
+  text-align: center;
+  padding: 5% 0;
 }
 
-.colorvioleta {
-  color: #500050;
-  font-size: 30px;
+input, textarea {
+  width: 100%;
+  margin-bottom: 5%;
+  padding: 0.5rem;
+}
+
+textarea {
+  min-height: 10rem;
+}
+
+#botonFormulario {
+  background-color: black;
+  color: white;
+  border: 3px solid #ff788e;
+  border-radius: 30px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+#botonFormulario:hover {
+  background-color: #6E7076;
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: white;
 }
 
 /*----- ERROR 404 -----*/
