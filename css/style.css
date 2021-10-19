@@ -41,7 +41,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 50px;
+  margin-top: 2rem;
   background-image: url(../multimedia/Banner.png);
   background-size: cover;
   height: 100vh;
@@ -77,6 +77,7 @@ body section p {
   margin-right: 10%;
   margin-bottom: 5%;
   font-family: 'Kaisei HarunoUmi', serif;
+  font-size: 1rem;
 }
 
 .fondoCardPackaging {
@@ -95,7 +96,9 @@ body section p {
   margin-bottom: 5%;
   padding-right: 40%;
   background-image: url(https://fondosmil.com/fondo/20832.jpg);
+  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .section__spotify .section__spotify__h2 {
@@ -103,7 +106,7 @@ body section p {
   margin-bottom: 50px;
   margin-left: 8%;
   text-align: left;
-  font-size: 40px;
+  font-size: 2rem;
   color: white;
   font-family: 'Kaisei HarunoUmi', serif;
 }
@@ -117,6 +120,7 @@ body section p {
 .section__spotify__parrafo {
   color: white;
   font-family: 'Kaisei HarunoUmi', serif;
+  font-size: 1rem;
 }
 
 .section__spotify__button {
@@ -150,7 +154,7 @@ body section p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 50px;
+  margin-top: 2rem;
   background-image: url(../multimedia/Banner.png);
   background-size: cover;
   height: 50vh;
@@ -180,7 +184,7 @@ body section p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 50px;
+  margin-top: 2rem;
   background-image: url(../multimedia/Banner.png);
   background-size: cover;
   height: 50vh;
@@ -197,6 +201,10 @@ body section p {
   padding-left: 5%;
   text-align: start;
   font-size: 1rem;
+}
+
+.seccioncatalogo img {
+  padding-left: 30%;
 }
 
 .imagenesCatalogo {
@@ -252,6 +260,39 @@ body section p {
 }
 
 /*----- MEDIOS DE PAGO -----*/
+.seccionMediosDePago {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+  background-image: url(../multimedia/Banner.png);
+  background-size: cover;
+  height: 50vh;
+}
+
+.seccionMediosDePago h1 {
+  color: white;
+  padding-left: 5%;
+  font-size: 2.5rem;
+}
+
+.seccionMediosDePago__parrafo {
+  color: #ff4060;
+  padding-left: 5%;
+  text-align: start;
+  font-size: 1rem;
+}
+
+.seccionMediosDePago img {
+  padding-left: 30%;
+}
+
 .cardsMdp {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#f3ccd3), to(white));
   background-image: linear-gradient(to bottom, #f3ccd3, white);
@@ -277,6 +318,39 @@ h5 {
 }
 
 /*----- CONTACTO -----*/
+.seccionContacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+  background-image: url(../multimedia/Banner.png);
+  background-size: cover;
+  height: 50vh;
+}
+
+.seccionContacto h1 {
+  color: white;
+  padding-left: 5%;
+  font-size: 2.5rem;
+}
+
+.seccionContacto__parrafo {
+  color: #ff4060;
+  padding-left: 5%;
+  text-align: start;
+  font-size: 1rem;
+}
+
+.seccionContacto img {
+  padding-left: 35%;
+}
+
 .formulario {
   margin-top: 8%;
   font-family: 'Kaisei HarunoUmi', serif;
