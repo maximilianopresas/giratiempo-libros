@@ -456,6 +456,35 @@ footer img:hover {
   transition: 1s;
 }
 
+.button_contactanos {
+  background-color: white;
+  border: 3px solid #ff788e;
+  border-radius: 30px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.button_contactanos a {
+  color: black;
+  text-decoration: none;
+  font-family: 'Kaisei HarunoUmi', serif;
+  font-size: 1rem;
+}
+
+.button_contactanos:hover {
+  background-color: #6E7076;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.button_contactanos a:hover {
+  color: white;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
 .copyright {
   text-align: center;
   font-size: 1rem;
@@ -463,6 +492,194 @@ footer img:hover {
   margin-top: 1rem;
   color: black;
   background-color: #e4e1e1;
+}
+
+/*---------------------------------------------- MEDIA QUERIS ----------------------------------------------*/
+@media (max-width: 576px) {
+  /*----- HEADER -----*/
+  .headerEstilo {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(#414040));
+    background-image: linear-gradient(to bottom, black, #414040);
+    border-bottom: 3px solid #ff788e;
+  }
+  .headerEstilo img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    margin-left: 18rem;
+    margin-bottom: -2.6rem;
+  }
+  .bgEnlace:hover {
+    background-color: #ff788e;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .headerEstilo img:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  /*----- BODY -----*/
+  .seccionPrincipal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 2rem;
+    background-image: url(../multimedia/Banner.png);
+    background-size: cover;
+    height: 50vh;
+  }
+  .seccionPrincipal h1 {
+    color: white;
+    padding-left: 5%;
+    padding-top: 15%;
+    padding-right: 30%;
+    font-size: 1.5rem;
+    font-family: 'Kaisei HarunoUmi', serif;
+  }
+  .seccionPrincipal__parrafo {
+    color: #ff4060;
+    padding-left: 5%;
+    padding-right: 30%;
+    text-align: start;
+    font-size: 0.8rem;
+    font-family: 'Kaisei HarunoUmi', serif;
+  }
+  .seccionPrincipal img {
+    display: none;
+  }
+  body section p {
+    padding: 40px;
+  }
+  .section__packaging {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: left;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 0.8rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .section__packaging h5 {
+    font-size: 1.5rem;
+    font-family: 'Kaisei HarunoUmi', serif;
+    text-align: start;
+  }
+  .section__packaging p {
+    text-align: left;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 0.8rem;
+    padding-left: 0.1rem;
+  }
+  .fondoCardPackaging {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f3ccd3), to(white));
+    background-image: linear-gradient(to bottom, #f3ccd3, white);
+  }
+  .section__spotify {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-image: url(https://fondosmil.com/fondo/20832.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .section__spotify h2 {
+    font-size: 1.5rem;
+    font-family: 'Kaisei HarunoUmi', serif;
+    text-align: start;
+    padding-left: 0.1rem;
+  }
+  .section__spotify__h2 a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Kaisei HarunoUmi', serif;
+    padding-left: 0.1rem;
+  }
+  .section__spotify__parrafo {
+    color: white;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 0.9rem;
+    padding-left: 1rem;
+    padding-right: 0;
+    margin-right: 0;
+  }
+  .section__spotify__button {
+    background-color: white;
+    margin-left: 1rem;
+  }
+  .section__spotify__button:hover {
+    background-color: #353434;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .section__spotify__button a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Kaisei HarunoUmi', serif;
+  }
+}
+
+/*----- FOOTER -----*/
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: 3px solid #ff788e;
+  background-color: black;
+  text-align: center;
+}
+
+footer img {
+  width: 2.5rem;
+}
+
+.logofooter {
+  width: 5rem;
+}
+
+footer img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .button_contactanos {
@@ -479,7 +696,8 @@ footer img:hover {
   color: black;
   text-decoration: none;
   font-family: 'Kaisei HarunoUmi', serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
+  font-weight: bolder;
 }
 
 .button_contactanos:hover {
