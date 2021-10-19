@@ -687,6 +687,37 @@ footer img:hover {
     padding-left: 0;
     padding-right: 0;
   }
+  /*----- CATALOGO -----*/
+  .seccioncatalogo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 2rem;
+    background-image: url(../multimedia/Banner.png);
+    background-size: cover;
+    height: 30vh;
+  }
+  .seccioncatalogo h1 {
+    color: white;
+    padding-left: 5%;
+    font-size: 1.5rem;
+    padding-top: 5rem;
+  }
+  .seccioncatalogo__parrafo {
+    color: #ff4060;
+    padding-left: 5%;
+    text-align: start;
+    font-size: 0.8rem;
+  }
+  .seccioncatalogo img {
+    display: none;
+  }
   /*----- FOOTER -----*/
   footer {
     display: -webkit-box;
