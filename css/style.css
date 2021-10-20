@@ -763,6 +763,63 @@ footer img:hover {
     padding: 0;
     color: black;
   }
+  /*----- CONTACTO -----*/
+  .seccionContacto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 2rem;
+    background-image: url(../multimedia/Banner.png);
+    background-size: cover;
+    height: 30vh;
+  }
+  .seccionContacto h1 {
+    color: white;
+    padding-left: 5%;
+    font-size: 1.5rem;
+    padding-top: 5rem;
+  }
+  .seccionContacto__parrafo {
+    color: #ff4060;
+    padding-left: 5%;
+    text-align: start;
+    font-size: 0.8rem;
+  }
+  .seccionContacto img {
+    display: none;
+  }
+  .formulario {
+    margin-top: 8%;
+    font-family: 'Kaisei HarunoUmi', serif;
+  }
+  form {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f3ccd3), to(white));
+    background-image: linear-gradient(to bottom, #f3ccd3, white);
+    width: 70%;
+    margin: auto;
+    padding: 4% 3%;
+    border: 1px solid black;
+    border-radius: 5%;
+  }
+  h2 {
+    text-align: center;
+    padding: 5% 0;
+    font-size: 1.5rem;
+  }
+  input, textarea {
+    width: 100%;
+    margin-bottom: 5%;
+    padding: 0.5rem;
+  }
+  textarea {
+    min-height: 10rem;
+  }
   /*----- FOOTER -----*/
   footer {
     display: -webkit-box;
