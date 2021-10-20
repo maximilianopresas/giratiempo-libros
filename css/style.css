@@ -718,6 +718,51 @@ footer img:hover {
   .seccioncatalogo img {
     display: none;
   }
+  /*----- MEDIOS DE PAGO -----*/
+  .seccionMediosDePago {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 2rem;
+    background-image: url(../multimedia/Banner.png);
+    background-size: cover;
+    height: 30vh;
+  }
+  .seccionMediosDePago h1 {
+    color: white;
+    padding-left: 5%;
+    font-size: 1.5rem;
+    padding-top: 5rem;
+  }
+  .seccionMediosDePago__parrafo {
+    color: #ff4060;
+    padding-left: 5%;
+    text-align: start;
+    font-size: 0.8rem;
+  }
+  .seccionMediosDePago img {
+    display: none;
+  }
+  .cardsMdp {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f3ccd3), to(white));
+    background-image: linear-gradient(to bottom, #f3ccd3, white);
+    margin-top: 10%;
+  }
+  h5 {
+    color: black;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .textocard p {
+    padding: 0;
+    color: black;
+  }
   /*----- FOOTER -----*/
   footer {
     display: -webkit-box;
