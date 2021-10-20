@@ -542,7 +542,7 @@ footer img:hover {
         -ms-flex-align: center;
             align-items: center;
     margin-top: 2rem;
-    background-image: url(../multimedia/Banner.png);
+    background-image: url("../multimedia/banner.png");
     background-size: cover;
     height: 50vh;
   }
