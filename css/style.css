@@ -155,7 +155,7 @@ body section p {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 2rem;
-  background-image: url(../multimedia/Banner.png);
+  background-image: url("../multimedia/Banner.png");
   background-size: cover;
   height: 50vh;
 }
@@ -190,7 +190,7 @@ body section p {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 2rem;
-  background-image: url(../multimedia/Banner.png);
+  background-image: url("../multimedia/Banner.png");
   background-size: cover;
   height: 50vh;
 }
@@ -276,7 +276,7 @@ body section p {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 2rem;
-  background-image: url(../multimedia/Banner.png);
+  background-image: url("../multimedia/Banner.png");
   background-size: cover;
   height: 50vh;
 }
@@ -334,7 +334,7 @@ h5 {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 2rem;
-  background-image: url(../multimedia/Banner.png);
+  background-image: url("../multimedia/Banner.png");
   background-size: cover;
   height: 50vh;
 }
@@ -662,7 +662,7 @@ footer img:hover {
         -ms-flex-align: center;
             align-items: center;
     margin-top: 2rem;
-    background-image: url(../multimedia/Banner.png);
+    background-image: url("../multimedia/Banner.png");
     background-size: cover;
     height: 40vh;
   }
@@ -699,7 +699,7 @@ footer img:hover {
         -ms-flex-align: center;
             align-items: center;
     margin-top: 2rem;
-    background-image: url(../multimedia/Banner.png);
+    background-image: url("../multimedia/Banner.png");
     background-size: cover;
     height: 30vh;
   }
@@ -730,7 +730,7 @@ footer img:hover {
         -ms-flex-align: center;
             align-items: center;
     margin-top: 2rem;
-    background-image: url(../multimedia/Banner.png);
+    background-image: url("../multimedia/Banner.png");
     background-size: cover;
     height: 30vh;
   }
@@ -775,7 +775,7 @@ footer img:hover {
         -ms-flex-align: center;
             align-items: center;
     margin-top: 2rem;
-    background-image: url(../multimedia/Banner.png);
+    background-image: url("../multimedia/Banner.png");
     background-size: cover;
     height: 30vh;
   }
