@@ -492,7 +492,7 @@ footer img:hover {
 
 .copyright {
   text-align: center;
-  font-size: 1rem;
+  font-size: 0.5rem;
   font-family: 'Kaisei HarunoUmi', serif;
   margin-top: 1rem;
   color: black;
@@ -551,14 +551,14 @@ footer img:hover {
     padding-left: 5%;
     padding-top: 15%;
     padding-right: 30%;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .seccionPrincipal__parrafo {
     color: #ff4060;
     padding-left: 5%;
     padding-right: 30%;
     text-align: start;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .seccionPrincipal img {
     display: none;
@@ -620,7 +620,7 @@ footer img:hover {
     font-size: 1.5rem;
     font-family: 'Kaisei HarunoUmi', serif;
     text-align: start;
-    padding-left: 0.1rem;
+    padding-left: 5rem;
   }
   .section__spotify__h2 a {
     text-decoration: none;
@@ -632,13 +632,13 @@ footer img:hover {
     color: white;
     font-family: 'Kaisei HarunoUmi', serif;
     font-size: 0.9rem;
-    padding-left: 1rem;
+    padding-left: 5rem;
     padding-right: 0;
     margin-right: 0;
   }
   .section__spotify__button {
     background-color: white;
-    margin-left: 1rem;
+    margin-left: 5rem;
   }
   .section__spotify__button:hover {
     background-color: #353434;
@@ -669,14 +669,14 @@ footer img:hover {
   .seccionQuienesSomos h1 {
     color: white;
     padding-left: 5%;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding-top: 5rem;
   }
   .seccionQuienesSomos__parrafo {
     color: #ff4060;
     padding-left: 5%;
     text-align: start;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .seccionQuienesSomos img {
     display: none;
@@ -706,14 +706,14 @@ footer img:hover {
   .seccioncatalogo h1 {
     color: white;
     padding-left: 5%;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding-top: 5rem;
   }
   .seccioncatalogo__parrafo {
     color: #ff4060;
     padding-left: 5%;
     text-align: start;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .seccioncatalogo img {
     display: none;
@@ -737,14 +737,14 @@ footer img:hover {
   .seccionMediosDePago h1 {
     color: white;
     padding-left: 5%;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding-top: 5rem;
   }
   .seccionMediosDePago__parrafo {
     color: #ff4060;
     padding-left: 5%;
     text-align: start;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .seccionMediosDePago img {
     display: none;
@@ -782,14 +782,14 @@ footer img:hover {
   .seccionContacto h1 {
     color: white;
     padding-left: 5%;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding-top: 5rem;
   }
   .seccionContacto__parrafo {
     color: #ff4060;
     padding-left: 5%;
     text-align: start;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .seccionContacto img {
     display: none;
